@@ -13,7 +13,7 @@ export const TestimonialsSection = () => {
     },
     {
       name: "Carlos M.",
-      role: "Mãe do(a) João, 4 anos",
+      role: "Pai do João, 4 anos",
       content: "Nunca vi meu filho tão interessado nas histórias da Bíblia. Com 35 livros diferentes, ele nunca se cansa. Vale muito mais que o preço!",
       family: "Carlos M.",
       initial: "C"
@@ -24,6 +24,48 @@ export const TestimonialsSection = () => {
       content: "A Sofia já memorizou dezenas de versículos colorindo esses livros. São meses de atividades educativas. Investimento que vale a pena!",
       family: "Fernanda S.",
       initial: "F"
+    },
+    {
+      name: "Roberto L.",
+      role: "Pai do Gabriel, 7 anos",
+      content: "Material incrível! O Gabriel passou horas colorindo e aprendendo. É educativo e divertido ao mesmo tempo. Recomendo para todas as famílias!",
+      family: "Roberto L.",
+      initial: "R"
+    },
+    {
+      name: "Mariana C.",
+      role: "Mãe do(a) Lucas, 3 anos",
+      content: "Mesmo sendo pequeno, o Lucas se concentra por muito tempo colorindo. Os desenhos são lindos e as histórias são perfeitamente adaptadas!",
+      family: "Mariana C.",
+      initial: "M"
+    },
+    {
+      name: "José A.",
+      role: "Pai da Beatriz, 6 anos",
+      content: "A Beatriz completou 12 livros em 2 semanas! Ela adora colorir e sempre pergunta sobre as histórias bíblicas. Compra certeira!",
+      family: "José A.",
+      initial: "J"
+    },
+    {
+      name: "Patricia R.",
+      role: "Mãe do(a) Rafael, 5 anos",
+      content: "Que alegria ver meu filho aprendendo sobre Deus de forma tão divertida! 35 livros por R$10 é praticamente de graça. Muito grata!",
+      family: "Patricia R.",
+      initial: "P"
+    },
+    {
+      name: "Eduardo M.",
+      role: "Pai da Helena, 4 anos",
+      content: "A Helena não largava mais os livros! Todas as noites ela escolhe um para colorirmos juntos. Momento especial em família. Vale cada centavo!",
+      family: "Eduardo M.",
+      initial: "E"
+    },
+    {
+      name: "Luciana T.",
+      role: "Mãe do(a) Daniel, 6 anos",
+      content: "Comprei pensando que eram só desenhos, mas é muito mais! História, versículos, atividades... O Daniel está aprendendo e se divertindo muito!",
+      family: "Luciana T.",
+      initial: "L"
     }
   ];
 
