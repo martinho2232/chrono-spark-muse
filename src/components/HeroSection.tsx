@@ -68,7 +68,7 @@ export const HeroSection = () => {
               {/* CTA Button */}
               <Button 
                 size="lg" 
-                className="w-full md:w-auto bg-gradient-blue hover:shadow-glow transform hover:scale-105 transition-all duration-300 text-lg py-6 px-8 rounded-xl font-bold shadow-strong"
+                className="w-full md:w-auto bg-gradient-blue hover:shadow-glow transform hover:scale-105 transition-all duration-300 text-lg py-6 px-8 rounded-xl font-bold shadow-strong animate-pulse-fast"
               >
                 🙏 GARANTIR 35 LIVROS - OFERTA LIMITADA!
               </Button>

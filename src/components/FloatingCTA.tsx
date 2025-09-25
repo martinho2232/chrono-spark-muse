@@ -26,7 +26,7 @@ export const FloatingCTA = () => {
           <div className="font-bold text-lg">🔥 OFERTA LIMITADA</div>
           <div className="text-xl font-bold">35 Livros por R$ 10,00!</div>
           <Button 
-            className="w-full bg-yellow-accent text-black hover:bg-yellow-accent/90 font-bold py-3 rounded-lg transform hover:scale-105 transition-all duration-300"
+            className="w-full bg-yellow-accent text-black hover:bg-yellow-accent/90 font-bold py-3 rounded-lg transform hover:scale-105 transition-all duration-300 animate-pulse-fast"
           >
             💳 GARANTIR AGORA!
           </Button>

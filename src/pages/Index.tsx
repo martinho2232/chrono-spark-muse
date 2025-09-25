@@ -8,6 +8,8 @@ import { UrgencySection } from "@/components/UrgencySection";
 import { GuaranteeSection } from "@/components/GuaranteeSection";
 import { Footer } from "@/components/Footer";
 import { FloatingCTA } from "@/components/FloatingCTA";
+import { UrgencyModal } from "@/components/UrgencyModal";
+import { SalesNotifications } from "@/components/SalesNotifications";
 
 const Index = () => {
   return (
@@ -22,6 +24,8 @@ const Index = () => {
       <GuaranteeSection />
       <Footer />
       <FloatingCTA />
+      <UrgencyModal />
+      <SalesNotifications />
     </div>
   );
 };
