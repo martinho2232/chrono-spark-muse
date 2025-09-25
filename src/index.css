@@ -17,8 +17,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -35,6 +35,29 @@ All colors MUST be HSL.
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
+
+    /* Custom Landing Page Colors */
+    --coral: 13 93% 66%;
+    --coral-dark: 13 85% 58%;
+    --blue-gradient-start: 217 91% 60%;
+    --blue-gradient-end: 262 83% 58%;
+    --yellow-accent: 48 100% 67%;
+    --green-success: 142 76% 36%;
+    --gray-light: 210 40% 96.1%;
+    
+    /* Gradients */
+    --gradient-coral: linear-gradient(135deg, hsl(var(--coral)), hsl(var(--coral-dark)));
+    --gradient-blue: linear-gradient(135deg, hsl(var(--blue-gradient-start)), hsl(var(--blue-gradient-end)));
+    --gradient-premium: linear-gradient(135deg, hsl(var(--blue-gradient-start)), hsl(262 83% 58%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 16px hsl(var(--coral) / 0.15);
+    --shadow-strong: 0 8px 32px hsl(var(--primary) / 0.2);
+    --shadow-glow: 0 0 40px hsl(var(--blue-gradient-start) / 0.3);
+    
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 

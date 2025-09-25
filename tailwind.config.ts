@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom colors for landing page
+        coral: {
+          DEFAULT: "hsl(var(--coral))",
+          dark: "hsl(var(--coral-dark))",
+        },
+        "blue-start": "hsl(var(--blue-gradient-start))",
+        "blue-end": "hsl(var(--blue-gradient-end))",
+        "yellow-accent": "hsl(var(--yellow-accent))",
+        "green-success": "hsl(var(--green-success))",
+        "gray-light": "hsl(var(--gray-light))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +72,19 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        "gradient-coral": "var(--gradient-coral)",
+        "gradient-blue": "var(--gradient-blue)",
+        "gradient-premium": "var(--gradient-premium)",
+      },
+      boxShadow: {
+        "soft": "var(--shadow-soft)",
+        "strong": "var(--shadow-strong)",
+        "glow": "var(--shadow-glow)",
+      },
+      transitionTimingFunction: {
+        "bounce": "var(--bounce)",
       },
       keyframes: {
         "accordion-down": {
@@ -80,10 +103,28 @@ export default {
             height: "0",
           },
         },
+        "pulse-soft": {
+          "0%, 100%": {
+            opacity: "1",
+          },
+          "50%": {
+            opacity: "0.8",
+          },
+        },
+        "bounce-gentle": {
+          "0%, 100%": {
+            transform: "translateY(0)",
+          },
+          "50%": {
+            transform: "translateY(-4px)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pulse-soft": "pulse-soft 2s ease-in-out infinite",
+        "bounce-gentle": "bounce-gentle 2s ease-in-out infinite",
       },
     },
   },
